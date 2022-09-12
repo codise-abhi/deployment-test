@@ -22,7 +22,7 @@ jobs:
       uses: docker/build-push-action@v3.1.1
       with:   
         push: true
-        tags: deploy-test/server:dev-latest
+        tags: codiseit/deploy-test:dev-latest
 
 
       # run: docker build . --file Dockerfile --tag workflow-server-dev:$(date +%s)
